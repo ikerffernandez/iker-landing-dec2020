@@ -24,7 +24,6 @@ $(".toggle").mouseout(
       }, 
 );
 
-
 // $(".logo-image, .title, .tagline").click(
 //   function () {
 //     $('img').removeClass('img-visible');

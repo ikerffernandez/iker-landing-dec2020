@@ -89,6 +89,25 @@
   		 opacity: 1;}
 }
 
+/* Button */
+
+@-webkit-keyframes button-loader {
+  0%   { opacity: 0;}
+  100% { opacity: 1;}
+}
+@-moz-keyframes button-loader {
+  0%   { opacity: 0;}
+  100% { opacity: 1;}
+}
+@-o-keyframes button-loader {
+  0%   { opacity: 0;}
+  100% { opacity: 1;}
+}
+@keyframes button-loader {
+  0%   { opacity: 0;}
+  100% { opacity: 1;}
+}
+
 
 /* Loader */
 
@@ -164,8 +183,6 @@ a {
 	font-size: 0.9em;
 	text-decoration: none;
   	color: rgba(0, 0, 0, 0.65);
-  	margin-right: 8px;
-  	transform: all;
   	transition: all ease 0.24s;
   }
 
@@ -210,13 +227,13 @@ footer {
 
 	opacity: 0;
 
-	-webkit-animation: footer-loader 2s forwards; /* Safari 4+ */
-  	-moz-animation:    footer-loader 2s forwards; /* Fx 5+ */
-  	-o-animation:      footer-loader 2s forwards; /* Opera 12+ */
-  	animation:         footer-loader 2s forwards; /* IE 10+, Fx 29+ */
+	-webkit-animation: button-loader 2s forwards; /* Safari 4+ */
+  	-moz-animation:    button-loader 2s forwards; /* Fx 5+ */
+  	-o-animation:      button-loader 2s forwards; /* Opera 12+ */
+  	animation:         button-loader 2s forwards; /* IE 10+, Fx 29+ */
 
-  	animation-timing-function: cubic-bezier(0.76, 0.07, 0, 0.99);
-  	animation-delay: 2.8s; /* or: Xms */	
+  	animation-timing-function: ease;
+  	animation-delay: 3s; /* or: Xms */	
 }
 
 .toggle-hover {
@@ -336,6 +353,10 @@ footer {
   	transform: all;
   	transition: all ease 0.24s;
   	margin-left: 0.25em;
+}
+
+.arrow-hover {
+	margin-left: 8px;
 }
 
 .content {
