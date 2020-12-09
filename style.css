@@ -186,7 +186,7 @@ a {
   	transition: all ease 0.24s;
   }
 
-a:hover {
+footer a:hover {
   	opacity: 0.5;	
 }
 
@@ -410,7 +410,7 @@ footer {
 .image-1 {
 	grid-column-start: 2;
 	grid-column-end: 4;
-	margin-top: 4em;
+	margin-top: 2.2em;
 	width: 100%;
 	max-width: 380px;
 	clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
@@ -424,7 +424,7 @@ footer {
 .image-2 {
 	grid-column-start: 6;
 	grid-column-end: 8;
-	margin-top: 5em;
+	margin-top: 2.5em;
 	width: 100%;
 	max-width: 356px;
 	clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
