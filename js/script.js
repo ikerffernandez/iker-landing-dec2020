@@ -6,8 +6,9 @@ $(".toggle").click(
     $('.image-3').toggleClass('image-3-visible');     
     $('.image-4').toggleClass('image-4-visible');
     $('.image-5').toggleClass('image-5-visible');     
-    $('.image-6').toggleClass('image-6-visible');   
-    $('.toggle').toggleClass('toggle-active');                
+    $('.image-6').toggleClass('image-6-visible'); 
+    $('.toggle').toggleClass('toggle-active'); 
+    $('.images').toggleClass('index-change');              
       }, 
 );
 
