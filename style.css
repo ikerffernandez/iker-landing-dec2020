@@ -314,6 +314,7 @@ footer {
 .arrow {
   	transform: all;
   	transition: all ease 0.24s;
+  	margin-left: 0.25em;
 }
 
 .content {
