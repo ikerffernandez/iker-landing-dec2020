@@ -149,7 +149,7 @@ h1, h2 {
 
 img {
 /*	border: rgba(0, 0, 0, 0.04) 1px solid; */	
-	margin-left: -1px;
+/*	margin-left: -1px; */
 	opacity: 0;
 	transform: all;
 	transition: all ease 0.5s;
@@ -208,7 +208,7 @@ footer {
   	animation:         footer-loader 1.5s forwards; /* IE 10+, Fx 29+ */
 
   	animation-timing-function: cubic-bezier(0.76, 0.07, 0, 0.99);
-  	animation-delay: 2.3s; /* or: Xms */		
+  	animation-delay: 2.6s; /* or: Xms */		
 }
 
 .gray-back {
@@ -237,7 +237,7 @@ footer {
 
 .column {
 	display: inline-grid;
-	border-right: solid 1px rgba(0, 0, 0, 0.04);
+	border-right: solid 1px rgba(0, 0, 0, 0.06);
 	height: 100vh;
 	z-index: -2;
 }
@@ -282,8 +282,9 @@ footer {
 	grid-column-start: 6;
 	grid-column-end: 6;
 	cursor: default;
-	clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);	
 	opacity: 0;
+	clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);	
+
 
 	-webkit-animation: header-loader 1.5s forwards; /* Safari 4+ */
   	-moz-animation:    header-loader 1.5s forwards; /* Fx 5+ */
@@ -307,7 +308,7 @@ footer {
   	animation:         header-loader 1.5s forwards; /* IE 10+, Fx 29+ */
 
   	animation-timing-function: cubic-bezier(0.76, 0.07, 0, 0.99);
-  	animation-delay: 1s; /* or: Xms */		
+  	animation-delay: 1.2s; /* or: Xms */		
 }
 
 .arrow {
@@ -337,7 +338,7 @@ footer {
   	animation:         text-loader 1s forwards; /* IE 10+, Fx 29+ */
 
   	animation-timing-function: cubic-bezier(0.76, 0.07, 0, 0.99);
-  	animation-delay: 1.5s; /* or: Xms */
+  	animation-delay: 1.6s; /* or: Xms */
 }
 
 .text a {
