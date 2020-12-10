@@ -8,22 +8,11 @@ $(".toggle").click(
     $('.image-5').toggleClass('image-5-visible');     
     $('.image-6').toggleClass('image-6-visible'); 
     $('.toggle').toggleClass('toggle-active'); 
-    $('.images').toggleClass('index-change');              
+    $('.images').toggleClass('index-change');    
+    $('.cross').toggleClass('rotation');           
       }, 
 );
 
-
-$(".toggle").mouseover(
-  function () { 
-    $('.toggle').addClass('toggle-hover');                
-      }, 
-);
-
-$(".toggle").mouseout(
-  function () { 
-    $('.toggle').removeClass('toggle-hover');                
-      }, 
-);
 
 // $(".logo-image, .title, .tagline").click(
 //   function () {
