@@ -7,6 +7,7 @@ $(".toggle").click(
     $('.image-4').toggleClass('image-4-visible');
     $('.image-5').toggleClass('image-5-visible');     
     $('.image-6').toggleClass('image-6-visible'); 
+    $('.image-7').toggleClass('image-7-visible');     
     $('.toggle').toggleClass('toggle-active'); 
     $('.images').toggleClass('index-change');    
     $('.cross').toggleClass('rotation');           
